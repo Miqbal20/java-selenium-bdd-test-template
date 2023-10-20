@@ -1,9 +1,13 @@
 ## My Starter Testing Template with Selenium Java and Cucumber
-### Created with Maven
 <table>
+
+<tr>
+<td>Framework</td>
+<td>Maven</td>
+</tr>
 <tr>
 <td>Code by</td>
-<td>Muhammad Iqbal</td>
+<td><a href="https://github.com/Miqbal20">Muhammad Iqbal</a> </td>
 </tr>
 <tr>
 <td>Object</td>
