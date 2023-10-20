@@ -1,22 +1,15 @@
-## My Starter Testing Template with Selenium Java and Cucumber
-### Created with Maven
-<table>
-<tr>
-<td>Code by</td>
-<td>Muhammad Iqbal</td>
-</tr>
-<tr>
-<td>Object</td>
-<td>https://saucedemo.com</td></tr>
-<tr>
-<td>OOP</td>
-<td>Yes</td>
-</tr>
-</table>
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
-### Dependecies
-```
-<dependencies>
+    <groupId>groupId</groupId>
+    <artifactId>java-selenium-bdd-test-template</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <!--Dependency-->
+    <dependencies>
         <!-- https://mvnrepository.com/artifact/org.junit.vintage/junit-vintage-engine -->
         <dependency>
             <groupId>org.junit.vintage</groupId>
@@ -64,6 +57,19 @@
             <version>7.14.0</version>
             <scope>test</scope>
         </dependency>
-
     </dependencies>
-```
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <!--Dependency-->
+    
+</project>
