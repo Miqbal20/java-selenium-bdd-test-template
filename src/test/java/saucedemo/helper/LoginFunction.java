@@ -1,4 +1,4 @@
-package saucedemo.function;
+package saucedemo.helper;
 import org.openqa.selenium.*;
 
 public class LoginFunction {

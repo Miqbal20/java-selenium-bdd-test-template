@@ -1,4 +1,4 @@
-package saucedemo.function;
+package saucedemo.helper;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;

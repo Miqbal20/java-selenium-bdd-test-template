@@ -6,8 +6,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.*;
 import java.time.Duration;
-import org.openqa.selenium.support.ui.Wait;
-import saucedemo.function.*;
+
+import saucedemo.helper.*;
 
 public class Auth {
     WebDriver driver;
