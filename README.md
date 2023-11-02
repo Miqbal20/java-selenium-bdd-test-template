@@ -12,6 +12,12 @@
 ## Step by Step
 
 ### Add Dependecies
+1. junit-vintage-engine
+2. selenium-java
+3. webdrivermanager
+4. cucumber-java
+5. cucumber-junit
+6. opencsv (Opsional)
 ```
 <dependencies>
         <!-- https://mvnrepository.com/artifact/org.junit.vintage/junit-vintage-engine -->
@@ -65,7 +71,8 @@
     </dependencies>
 ```
 
-### Create Folder inside folder java 
+### Create Folder inside folder java
+
 <table>
     <tr>
         <td colspan="2">Project</td>
@@ -83,6 +90,7 @@
 </table>
 
 ### Format Feature
+
 ```
 Feature: Authentication
   @Positive @Auth
@@ -99,7 +107,9 @@ Feature: Authentication
       | error_user    | secret_sauce |
       | visual_user   | secret_sauce |
 ```
+
 ### Format Step
+
 ```
 package saucedemo.steps;
 
@@ -165,8 +175,11 @@ public class Auth {
 }
 
 ```
+
 ### Format Helper
+
 #### Waiting
+
 ```
 package saucedemo.helper;
 import org.openqa.selenium.*;
@@ -199,6 +212,7 @@ public class WaitingFunction {
 ```
 
 ### Format Runner
+
 ```
 package saucedemo.runner;
 import io.cucumber.junit.Cucumber;
